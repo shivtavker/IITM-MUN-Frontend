@@ -1,0 +1,98 @@
+header{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.navbar-brand {
+    color: #d9b08c;
+    font-size: 30px;
+    -webkit-text-fill-color: #f3bc12;
+}
+
+.navbar{
+    background-color: transparent;
+    width: 100%;
+    color: #f3bc12;
+    margin-bottom: 0 !important;
+    z-index: 1;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 40px;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Lobster', sans-serif;
+    overflow: auto;
+    position: fixed;
+    margin-bottom: 0px;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.navbar-nav li{
+    margin-left:0px;
+    margin-right:10px;
+  }
+
+.navbar-nav li a{
+    color: #d1e8e2;
+}
+
+
+.navbar-nav li a:hover,.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffc89a;
+    background: #116466;
+     
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav ul{
+    float: right;
+    margin: 0;
+    padding-right: 42px;
+}
+
+.nav ul li a{
+    width:16.67%;
+}
+
+.navbar-default button {
+    border-color: transparent;
+    opacity: 50%;
+  }
+
+.blue{
+    background-color: #d1e8e2;
+}
+
+.navbar-toggler{
+    margin-right: 0;
+    float: right;
+}
+nav{
+    overflow: auto;
+}
+
+.active {
+    color: #ffc89a;
+    background: #116466;
+    border: 1px solid #ffc89a;
+}
+
+@media(max-width:747px){
+    
+    .nav-link{
+        display: block;
+        text-align: center;
+        color: #f3bc12;
+    }
+
+}

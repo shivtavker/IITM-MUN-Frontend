@@ -1,0 +1,39 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="col-1 col-sm-3 col-md-4 col-lg-5"> 
+  <a class="navbar-brand" routerLink="/home"> IITM MUN</a>
+  </div> 
+
+  <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+  </button>  
+    
+    <div class="collapse navbar-collapse" id="navbarNav" [ngClass]="{'show':navbarOpen}">
+      <ul class="navbar-nav" >
+        <li class="nav-item ">
+          <a class="nav-link" routerLink="/home" routerLinkActive="active" >HOME</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link" routerLink="/committee" routerLinkActive="active">COMMITTEES</a>
+          </li>
+
+          <li class="nav-item ">
+              <a class="nav-link" routerLink="/application" routerLinkActive="active">REGISTRATION</a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="/team" routerLinkActive="active">SECRETARIAT</a>
+              </li> 
+
+          <!--    <li class="nav-item active">
+                  <a class="nav-link" href="#">PARTNERS</a>
+                </li>  -->
+
+      </ul>
+      
+
+    </div>
+  </nav> 
+  </header>
+              

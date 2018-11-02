@@ -1,0 +1,152 @@
+#bg-image{
+    background-image: url('../../../assets/images/website/website-11.png');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0px;
+    bottom: 0;
+    height: 100%;
+    z-index: -10;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    padding: 0px 0px 0px 0px;
+}
+
+@media (max-width:747px){
+    #bg-image{  
+        min-height:0%;
+        width: 100%;
+        
+    }
+}
+
+#bg-image-overlay{  
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.bg-about{
+    text-align: center;
+    font-size: 50px;
+    }
+
+.bg-about p{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bg-message{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    }
+
+.bg-message p{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.shadow {
+    position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+    left:50%;
+    overflow:visible;
+}
+img.logo {
+    position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-top:-50%;
+    margin-left:-50%;
+}
+
+.paragraph{
+    padding-top: 40px;
+}
+
+.line{
+    padding-top: 25px;;
+}
+
+.span8{
+    padding-top: 20px;
+}
+
+.container {
+    padding: 0 16px;
+  }
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.image1{
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;   
+}
+
+  
+@media screen and (max-width:970px) and (min-width:500px){
+#bg-image{
+    background-image: url('../../../assets/images/website/website-12.png');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0px;
+    bottom: 0;
+    height: 100%;
+    z-index: -10;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    padding: 0px 0px 0px 0px;
+}
+
+.image1{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+}
+
+@media screen and (max-width:500px){
+    #bg-image{
+        background-image: url('../../../assets/images/website/website-13.png');
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        top: 0px;
+        bottom: 0;
+        height: 100%;
+        z-index: -10;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .image1{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
