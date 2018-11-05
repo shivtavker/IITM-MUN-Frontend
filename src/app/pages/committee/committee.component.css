@@ -1,5 +1,4 @@
 #bg-image{
-    background-image: url('../../../assets/images/img.jpeg');
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -11,6 +10,20 @@
     -moz-background-size:cover;
     -o-background-size:cover;
     padding: 0px 0px 0px 0px;
+}.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
 }
 
 #bg-image-overlay{
