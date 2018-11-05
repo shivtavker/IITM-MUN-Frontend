@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Ng4LoadingSpinnerModule } from 'ng4-loading-spinner';
-import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { AppComponent } from './app.component';
@@ -38,7 +38,7 @@ import { TeamComponent } from './pages/team/team.component';
     Committee4Component,
     Committee5Component,
     ApplicationComponent,
-    TeamComponent
+    TeamComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,50 +48,55 @@ import { TeamComponent } from './pages/team/team.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       {
+        path: '',
+        component: HomeComponent,
+      },
+      {
         path: 'home',
-        component: HomeComponent
+        component: HomeComponent,
       },
       {
         path: 'committee',
-        component: CommitteeComponent
+        component: CommitteeComponent,
       },
       {
         path: 'committee1',
-        component:Committee1Component
+        component: Committee1Component,
       },
       {
         path: 'committee2',
-        component:Committee2Component
+        component: Committee2Component,
       },
       {
         path: 'committee3',
-        component:Committee3Component
+        component: Committee3Component,
       },
       {
         path: 'committee4',
-        component:Committee4Component
+        component: Committee4Component,
       },
       {
         path: 'committee5',
-        component:Committee5Component
+        component: Committee5Component,
       },
       {
         path: 'application',
-        component: ApplicationComponent
+        component: ApplicationComponent,
       },
       {
         path: 'team',
-        component: TeamComponent
-      }
+        component: TeamComponent,
+      },
+      {
+        path: '**',
+        component: HomeComponent,
+      },
     ]),
 
-    Ng4LoadingSpinnerModule.forRoot()
+    Ng4LoadingSpinnerModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [
-    CommonModule
-  ],
+  exports: [CommonModule],
 })
-export class AppModule { }
-
+export class AppModule {}
