@@ -18,7 +18,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
-<<<<<<< HEAD
+
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -26,10 +26,6 @@
             "styles": [
               "src/styles.css"
             ],
-=======
-            "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/loading.scss", "src/styles.css"],
->>>>>>> d24e412449b5e1072e9221e876b3505e1c5f2e12
             "scripts": []
           },
           "configurations": {

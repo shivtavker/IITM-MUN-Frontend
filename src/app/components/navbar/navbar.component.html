@@ -11,19 +11,19 @@
     <div class="collapse navbar-collapse" id="navbarNav" [ngClass]="{'show':navbarOpen}">
       <ul class="navbar-nav" >
         <li class="nav-item ">
-          <a class="nav-link" routerLink="/home" routerLinkActive="active" >HOME</a>
+          <a class="nav-link" routerLink="/home" routerLinkActive="active" (click)="toggleNavbar()">HOME</a>
         </li>
 
         <li class="nav-item ">
-            <a class="nav-link" routerLink="/committee" routerLinkActive="active">COMMITTEES</a>
+            <a class="nav-link" routerLink="/committee" routerLinkActive="active" (click)="toggleNavbar()">COMMITTEES</a>
           </li>
 
           <li class="nav-item ">
-              <a class="nav-link" routerLink="/application" routerLinkActive="active">REGISTRATION</a>
+              <a class="nav-link" routerLink="/application" routerLinkActive="active" (click)="toggleNavbar()">REGISTRATION</a>
             </li>
 
             <li class="nav-item ">
-                <a class="nav-link" routerLink="/team" routerLinkActive="active">SECRETARIAT</a>
+                <a class="nav-link" routerLink="/team" routerLinkActive="active" (click)="toggleNavbar()">SECRETARIAT</a>
               </li> 
 
           <!--    <li class="nav-item active">
